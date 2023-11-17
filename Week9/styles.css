@@ -1,0 +1,66 @@
+body {
+    font-family: 'Avenir Next', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: left;
+    background-color: #EEE9DA; /* Light background color */
+    color: #333; /* Dark text color for contrast */
+    
+}
+
+[lang="fa"] {
+    font-family: 'Vazir', sans-serif;
+    direction: rtl;
+    text-align: right;
+}
+
+[lang="en"] {
+    font-family: 'Avenir Next', Arial, sans-serif;
+    direction: ltr;
+    text-align: left;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0.5em 0;
+    
+}
+
+header button {
+    background-color: #D2E3C8;
+    color: #164863;
+    border: none;
+    padding: 0.5em 1em;
+    margin: 0 0.5em;
+    cursor: pointer;
+    font-family: 'Vazir', 'Avenir Next';
+}
+
+header button:hover {
+    background-color: #555;
+    
+}
+
+.posts {
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+/* Responsive layout adjustments */
+@media screen and (max-width: 600px) {
+    header button {
+        width: 100%;
+        margin: 0.2em 0;
+    }
+
+    .posts {
+        margin: 0.5em;
+        padding: 0.5em;
+    }
+}
+
+/* Add additional styling as needed */

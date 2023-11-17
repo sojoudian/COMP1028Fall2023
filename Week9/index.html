@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html dir="rtl" lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Blog</title>
+    <style>
+        body {
+            font-family: 'Avenir Next', Times, sans-serif;
+            background-color: #f4f4f4;
+            direction: rtl;
+            text-align: right;
+            margin: 0;
+            padding: 0;
+        }
+        {{/* [lang="fa"] {
+            font-family: 'Vazir', sans-serif;
+            direction: rtl;
+            text-align: right;
+        } */}}
+        header {
+            background: #3A4D39;
+            color: #ECE3CE;
+            text-align: center;
+        }
+
+        nav ul {
+            font-family: 'Vazir', sans-serif;
+            margin: 0;
+            list-style: none;
+            background: #4F6F52;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        article {
+            width: 90%;
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #3A4D39;
+            color: #ECE3CE;
+        }    
+        @media screen and (max-width: 600px) {
+            nav ul li {
+                display: block;
+                margin-right: 0;
+            }            
+        }
+    </style>
+</head>
+<body lang="fa">
+    <header>
+        <h1>My Blog</h1>
+    </header>
+    <nav lang="fa">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Articles</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="englishPosts" class="posts" lang="en">
+            <article>
+                <h2>Sample English Post</h2>
+                <p>This is a sample post in English.</p>
+            </article>
+            <article>
+                <h2>Sample English Post</h2>
+                <p>This is a sample post in English.</p>
+            </article>
+            <article>
+                <h2>Sample English Post</h2>
+                <p>This is a sample post in English.</p>
+            </article>                        
+            <!-- More English posts -->
+        </section>      
+    </main>
+    <footer>
+        <p> Copyright © 2023</p>
+    </footer>
+    <script>
+        // Place for JavaScript code if needed
+    </script>
+</body>
+</html>
